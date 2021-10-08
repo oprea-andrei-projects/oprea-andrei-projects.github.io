@@ -22,6 +22,12 @@ header{
 }
 h1{
     display: inline-block;
+    margin-left: 10px;
+}
+
+h2{
+    margin-top: 1px;
+   
 }
 
 /* .nav  li {
@@ -30,40 +36,53 @@ h1{
 } */
 
 li{
-
+    display: inline-block;
     list-style-type: none; 
+    
 }
 
+li:nth-child(odd){
 
+    margin-left: 6px;
+}
 
+li:nth-child(even){
+
+    margin-left: 6px;
+}
 
 
 .headerdiv1{
-width: 40%;
+
+    width: 40%;
     display: inline-block;
-    border: 2px solid red;
-    margin-left:305px;
+    margin-left:325px;
+    text-align: right;
 
 }
 
- body aside{
-    display: inline-block;
-    margin-top:0px;
-    margin-right: 15px;
-    margin-left: 5px;
-    width: 15%;
-    height: 200px;
-  
-    
+
+main{ 
+   
+    width: 100%;
+    height: 408px;  
+    padding-left: 15px;
 
 }
-main{
 
-    
-    display: inline-block;
-    width: 70%;
-    height: 500px;
-    margin-right: 5px;
+
+
+.projects{
+
+     border: 2px ;
+}
+
+
+.project{
+
+    display:inline-block;
+    width: 160px;
+    height: 160px;
 
 }
 
@@ -75,10 +94,14 @@ footer{
     border-radius: 5px;
     padding: 5px;
     text-align: center;
-    
 }
 
 .pfooter1{
-
+    margin-top: 30px;
     font-style: italic;
+}
+
+.reviews{
+
+    margin-top: 30px;
 }
